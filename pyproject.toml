@@ -32,6 +32,7 @@ dependencies = [
     "optuna==4.9.0",
     "packaging==26.3",
     "pandas==3.0.5",
+    "pathlib>=1.0.1",
     "pillow==12.3.0",
     "pyarrow==25.0.1",
     "pydantic==2.13.5",
