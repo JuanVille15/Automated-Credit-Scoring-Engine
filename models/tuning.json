@@ -1,0 +1,28 @@
+[
+  {
+    "model":"svm",
+    "parametros":{
+      "C":14.4403899661,
+      "gamma":0.0037364421
+    },
+    "roc-auc":0.7678897555
+  },
+  {
+    "model":"logreg",
+    "parametros":{
+      "C":0.0472617627
+    },
+    "roc-auc":0.7652853453
+  },
+  {
+    "model":"random_forest",
+    "parametros":{
+      "n_estimators":736,
+      "max_depth":7,
+      "min_samples_split":12,
+      "min_samples_leaf":3,
+      "max_features":"log2"
+    },
+    "roc-auc":0.7648245553
+  }
+]
